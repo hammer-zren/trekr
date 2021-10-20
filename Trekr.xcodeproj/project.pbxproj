@@ -13,6 +13,9 @@
 		A5F8AE9D271E799500289563 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5F8AE9C271E799500289563 /* Preview Assets.xcassets */; };
 		A5F8AEA5271E8B6200289563 /* tips.json in Resources */ = {isa = PBXBuildFile; fileRef = A5F8AEA3271E8B6200289563 /* tips.json */; };
 		A5F8AEA6271E8B6200289563 /* locations.json in Resources */ = {isa = PBXBuildFile; fileRef = A5F8AEA4271E8B6200289563 /* locations.json */; };
+		A5F8AEA8271E97F100289563 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5F8AEA7271E97F100289563 /* Location.swift */; };
+		A5F8AEAA271E9DEA00289563 /* Locations.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5F8AEA9271E9DEA00289563 /* Locations.swift */; };
+		A5F8AEAC271EA5FA00289563 /* WorldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5F8AEAB271EA5FA00289563 /* WorldView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +26,9 @@
 		A5F8AE9C271E799500289563 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A5F8AEA3271E8B6200289563 /* tips.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = tips.json; sourceTree = "<group>"; };
 		A5F8AEA4271E8B6200289563 /* locations.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = locations.json; sourceTree = "<group>"; };
+		A5F8AEA7271E97F100289563 /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		A5F8AEA9271E9DEA00289563 /* Locations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Locations.swift; sourceTree = "<group>"; };
+		A5F8AEAB271EA5FA00289563 /* WorldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,10 +63,13 @@
 			children = (
 				A5F8AE95271E799000289563 /* TrekrApp.swift */,
 				A5F8AE97271E799000289563 /* ContentView.swift */,
+				A5F8AEA7271E97F100289563 /* Location.swift */,
+				A5F8AEA9271E9DEA00289563 /* Locations.swift */,
 				A5F8AE99271E799500289563 /* Assets.xcassets */,
 				A5F8AEA4271E8B6200289563 /* locations.json */,
 				A5F8AEA3271E8B6200289563 /* tips.json */,
 				A5F8AE9B271E799500289563 /* Preview Content */,
+				A5F8AEAB271EA5FA00289563 /* WorldView.swift */,
 			);
 			path = Trekr;
 			sourceTree = "<group>";
@@ -146,6 +155,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				A5F8AE98271E799000289563 /* ContentView.swift in Sources */,
+				A5F8AEA8271E97F100289563 /* Location.swift in Sources */,
+				A5F8AEAC271EA5FA00289563 /* WorldView.swift in Sources */,
+				A5F8AEAA271E9DEA00289563 /* Locations.swift in Sources */,
 				A5F8AE96271E799000289563 /* TrekrApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
