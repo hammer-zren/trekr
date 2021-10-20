@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A58C85C8271F9BDD003DAA2D /* Tip.swift in Sources */ = {isa = PBXBuildFile; fileRef = A58C85C7271F9BDD003DAA2D /* Tip.swift */; };
+		A58C85CA271F9D2B003DAA2D /* TipsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A58C85C9271F9D2B003DAA2D /* TipsView.swift */; };
 		A5F8AE96271E799000289563 /* TrekrApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5F8AE95271E799000289563 /* TrekrApp.swift */; };
 		A5F8AE98271E799000289563 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5F8AE97271E799000289563 /* ContentView.swift */; };
 		A5F8AE9A271E799500289563 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5F8AE99271E799500289563 /* Assets.xcassets */; };
@@ -19,6 +21,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A58C85C7271F9BDD003DAA2D /* Tip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tip.swift; sourceTree = "<group>"; };
+		A58C85C9271F9D2B003DAA2D /* TipsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipsView.swift; sourceTree = "<group>"; };
 		A5F8AE92271E799000289563 /* Trekr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Trekr.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5F8AE95271E799000289563 /* TrekrApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrekrApp.swift; sourceTree = "<group>"; };
 		A5F8AE97271E799000289563 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -70,6 +74,8 @@
 				A5F8AEA3271E8B6200289563 /* tips.json */,
 				A5F8AE9B271E799500289563 /* Preview Content */,
 				A5F8AEAB271EA5FA00289563 /* WorldView.swift */,
+				A58C85C7271F9BDD003DAA2D /* Tip.swift */,
+				A58C85C9271F9D2B003DAA2D /* TipsView.swift */,
 			);
 			path = Trekr;
 			sourceTree = "<group>";
@@ -157,6 +163,8 @@
 				A5F8AE98271E799000289563 /* ContentView.swift in Sources */,
 				A5F8AEA8271E97F100289563 /* Location.swift in Sources */,
 				A5F8AEAC271EA5FA00289563 /* WorldView.swift in Sources */,
+				A58C85C8271F9BDD003DAA2D /* Tip.swift in Sources */,
+				A58C85CA271F9D2B003DAA2D /* TipsView.swift in Sources */,
 				A5F8AEAA271E9DEA00289563 /* Locations.swift in Sources */,
 				A5F8AE96271E799000289563 /* TrekrApp.swift in Sources */,
 			);
